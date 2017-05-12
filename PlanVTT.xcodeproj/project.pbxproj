@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9029CAB1363012800EA2098 /* PVAngleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = E9029CAA1363012700EA2098 /* PVAngleScreen.m */; };
+		E9029CAE1363014600EA2098 /* PVAngleGeographic.m in Sources */ = {isa = PBXBuildFile; fileRef = E9029CAD1363014600EA2098 /* PVAngleGeographic.m */; };
+		E9029CB11363016200EA2098 /* PVAngleMagnetic.m in Sources */ = {isa = PBXBuildFile; fileRef = E9029CB01363016200EA2098 /* PVAngleMagnetic.m */; };
+		E9029CB71363026500EA2098 /* PVSuperAngle.m in Sources */ = {isa = PBXBuildFile; fileRef = E9029CB61363026500EA2098 /* PVSuperAngle.m */; };
+		E9029CBA136303AC00EA2098 /* PVLongitude.m in Sources */ = {isa = PBXBuildFile; fileRef = E9029CB9136303AB00EA2098 /* PVLongitude.m */; };
+		E9029CBD1363051A00EA2098 /* PVAngleMagToGeoTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = E9029CBC1363051900EA2098 /* PVAngleMagToGeoTransform.m */; };
+		E9029CC01363085400EA2098 /* PVLatitude.m in Sources */ = {isa = PBXBuildFile; fileRef = E9029CBF1363085300EA2098 /* PVLatitude.m */; };
+		E9029CD0136311F100EA2098 /* PVAngleGeoToScreenTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = E9029CCF136311F000EA2098 /* PVAngleGeoToScreenTransform.m */; };
+		E9031FE4135CFB2000F0EF47 /* PVHeadingLine.m in Sources */ = {isa = PBXBuildFile; fileRef = E9031FE3135CFB2000F0EF47 /* PVHeadingLine.m */; };
+		E904E74D13E478BB00339690 /* plan-st-quentin in Resources */ = {isa = PBXBuildFile; fileRef = E904E74C13E478BB00339690 /* plan-st-quentin */; };
+		E90AA8D5136062800015A7F0 /* PVConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E90AA8D41360627F0015A7F0 /* PVConstants.m */; };
+		E90AA8D9136076590015A7F0 /* PVHeadingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E90AA8D8136076590015A7F0 /* PVHeadingLabel.m */; };
+		E91F68361423A2FE0010A90D /* PVConstantsRombas.m in Sources */ = {isa = PBXBuildFile; fileRef = E91F68351423A2FE0010A90D /* PVConstantsRombas.m */; };
+		E926F6DC13C39EB6004F00D9 /* PVLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E926F6DB13C39EB6004F00D9 /* PVLocationController.m */; };
+		E947353813C4D68D00948345 /* PVView.m in Sources */ = {isa = PBXBuildFile; fileRef = E947353713C4D68D00948345 /* PVView.m */; };
+		E9640C6F135CAE82003D04FA /* PVPositionTrackingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9640C6E135CAE81003D04FA /* PVPositionTrackingView.m */; };
+		E9640C73135CC87C003D04FA /* PVTrackingDot.m in Sources */ = {isa = PBXBuildFile; fileRef = E9640C72135CC87B003D04FA /* PVTrackingDot.m */; };
+		E9640C75135CCF81003D04FA /* tracking-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = E9640C74135CCF81003D04FA /* tracking-dot.png */; };
+		E967393A135A1860000803E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9673939135A1860000803E4 /* UIKit.framework */; };
+		E967393C135A1860000803E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E967393B135A1860000803E4 /* Foundation.framework */; };
+		E967393E135A1860000803E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E967393D135A1860000803E4 /* CoreGraphics.framework */; };
+		E9673944135A1860000803E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9673942135A1860000803E4 /* InfoPlist.strings */; };
+		E9673947135A1860000803E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9673946135A1860000803E4 /* main.m */; };
+		E967394A135A1860000803E4 /* PVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9673949135A1860000803E4 /* PVAppDelegate.m */; };
+		E967394D135A1860000803E4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E967394B135A1860000803E4 /* MainWindow.xib */; };
+		E9673950135A1860000803E4 /* PVMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E967394F135A1860000803E4 /* PVMainViewController.m */; };
+		E9673952135A1860000803E4 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9673951135A1860000803E4 /* MainView.xib */; };
+		E9673955135A1860000803E4 /* PVFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9673954135A1860000803E4 /* PVFlipsideViewController.m */; };
+		E9673957135A1860000803E4 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9673956135A1860000803E4 /* FlipsideView.xib */; };
+		E9673965135A2C7D000803E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9673964135A2C7D000803E4 /* QuartzCore.framework */; };
+		E9673967135A2CE2000803E4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9673966135A2CE2000803E4 /* CoreLocation.framework */; };
+		E967396A135A2FCC000803E4 /* icone@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E9673968135A2FCC000803E4 /* icone@2x~iphone.png */; };
+		E967396B135A2FCC000803E4 /* icone~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E9673969135A2FCC000803E4 /* icone~iphone.png */; };
+		E9DBA6AF1423FAF400AC22D7 /* plan-gif in Resources */ = {isa = PBXBuildFile; fileRef = E9DBA6AE1423FAF400AC22D7 /* plan-gif */; };
+		E9DBA6B21423FB0400AC22D7 /* plan-essonne in Resources */ = {isa = PBXBuildFile; fileRef = E9DBA6B11423FB0400AC22D7 /* plan-essonne */; };
+		E9DBA6B51423FBB900AC22D7 /* PVConstantsGif.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DBA6B41423FBB900AC22D7 /* PVConstantsGif.m */; };
+		E9DBA6B81424033B00AC22D7 /* PVConstantsEssonne.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DBA6B71424033A00AC22D7 /* PVConstantsEssonne.m */; };
+		E9DF8DD9135DACC500E63896 /* PVPositionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DF8DD8135DACC500E63896 /* PVPositionView.m */; };
+		E9DF8DE0135DB20A00E63896 /* PVPositionFixedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DF8DDF135DB20900E63896 /* PVPositionFixedView.m */; };
+		E9DF8DE3135DB4BE00E63896 /* PVRangeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DF8DE2135DB4BE00E63896 /* PVRangeCircle.m */; };
+		E9DF8DE6135DE68600E63896 /* PVAngle.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DF8DE5135DE68600E63896 /* PVAngle.m */; };
+		E9DF8DEC135E20DC00E63896 /* PVGeoToMetersTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DF8DEB135E20DB00E63896 /* PVGeoToMetersTransform.m */; };
+		E9DF8DEF135E212900E63896 /* PVGeographic.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DF8DEE135E212800E63896 /* PVGeographic.m */; };
+		E9DF8DF2135E254A00E63896 /* PVScreenToGeoTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DF8DF1135E254900E63896 /* PVScreenToGeoTransform.m */; };
+		E9DF8DF5135E25E800E63896 /* PVMeters.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DF8DF4135E25E700E63896 /* PVMeters.m */; };
+		E9E0A3E0135E59130048C3A1 /* PVTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E0A3DF135E59130048C3A1 /* PVTransform.m */; };
+		E9E25EC0135B0A40007DC961 /* PVScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E25EBF135B0A40007DC961 /* PVScrollView.m */; };
+		E9E25EC3135B0AF4007DC961 /* PVScrollViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E25EC2135B0AF4007DC961 /* PVScrollViewDelegate.m */; };
+		E9E25EC6135B0D29007DC961 /* PVZoomingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E25EC5135B0D29007DC961 /* PVZoomingView.m */; };
+		E9E25EC9135B0D4B007DC961 /* PVNonZoomingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E25EC8135B0D4B007DC961 /* PVNonZoomingView.m */; };
+		E9E25ED3135B3400007DC961 /* PVCoordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E25ED2135B3400007DC961 /* PVCoordinates.m */; };
+		E9E25ED6135B397E007DC961 /* PVMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E25ED5135B397E007DC961 /* PVMatrix.m */; };
+		E9E25ED9135B7802007DC961 /* PVMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E25ED8135B7802007DC961 /* PVMapView.m */; };
+		E9E91D8D142228CE001E6EA9 /* plan-rombas in Resources */ = {isa = PBXBuildFile; fileRef = E9E91D8C142228CE001E6EA9 /* plan-rombas */; };
+		E9E91D941422295B001E6EA9 /* PVConstantsStQuentin.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E91D931422295B001E6EA9 /* PVConstantsStQuentin.m */; };
+		E9F05B0813C7502F0054666A /* altitude.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F05B0213C7502F0054666A /* altitude.png */; };
+		E9F05B0913C7502F0054666A /* coordinates.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F05B0313C7502F0054666A /* coordinates.png */; };
+		E9F05B0A13C7502F0054666A /* heading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F05B0413C7502F0054666A /* heading@2x.png */; };
+		E9F05B0B13C7502F0054666A /* heading.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F05B0513C7502F0054666A /* heading.png */; };
+		E9F05B0C13C7502F0054666A /* altitude@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F05B0613C7502F0054666A /* altitude@2x.png */; };
+		E9F05B0D13C7502F0054666A /* coordinates@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F05B0713C7502F0054666A /* coordinates@2x.png */; };
+		E9F1214F135F10CF008EFB73 /* PVVector.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F1214E135F10CF008EFB73 /* PVVector.m */; };
+		E9F12152135F125F008EFB73 /* PVScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F12151135F125F008EFB73 /* PVScreen.m */; };
+		E9FC252E13C49E0E00234CCF /* PVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FC252D13C49E0E00234CCF /* PVLocation.m */; };
+		E9FC253213C4A05B00234CCF /* PVHeading.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FC253113C4A05B00234CCF /* PVHeading.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9029CA91363012700EA2098 /* PVAngleScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVAngleScreen.h; sourceTree = "<group>"; };
+		E9029CAA1363012700EA2098 /* PVAngleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVAngleScreen.m; sourceTree = "<group>"; };
+		E9029CAC1363014600EA2098 /* PVAngleGeographic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVAngleGeographic.h; sourceTree = "<group>"; };
+		E9029CAD1363014600EA2098 /* PVAngleGeographic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVAngleGeographic.m; sourceTree = "<group>"; };
+		E9029CAF1363016200EA2098 /* PVAngleMagnetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVAngleMagnetic.h; sourceTree = "<group>"; };
+		E9029CB01363016200EA2098 /* PVAngleMagnetic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVAngleMagnetic.m; sourceTree = "<group>"; };
+		E9029CB51363026400EA2098 /* PVSuperAngle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVSuperAngle.h; sourceTree = "<group>"; };
+		E9029CB61363026500EA2098 /* PVSuperAngle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVSuperAngle.m; sourceTree = "<group>"; };
+		E9029CB8136303AB00EA2098 /* PVLongitude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVLongitude.h; sourceTree = "<group>"; };
+		E9029CB9136303AB00EA2098 /* PVLongitude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVLongitude.m; sourceTree = "<group>"; };
+		E9029CBB1363051900EA2098 /* PVAngleMagToGeoTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVAngleMagToGeoTransform.h; sourceTree = "<group>"; };
+		E9029CBC1363051900EA2098 /* PVAngleMagToGeoTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVAngleMagToGeoTransform.m; sourceTree = "<group>"; };
+		E9029CBE1363085200EA2098 /* PVLatitude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVLatitude.h; sourceTree = "<group>"; };
+		E9029CBF1363085300EA2098 /* PVLatitude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVLatitude.m; sourceTree = "<group>"; };
+		E9029CCE136311F000EA2098 /* PVAngleGeoToScreenTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVAngleGeoToScreenTransform.h; sourceTree = "<group>"; };
+		E9029CCF136311F000EA2098 /* PVAngleGeoToScreenTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVAngleGeoToScreenTransform.m; sourceTree = "<group>"; };
+		E9031FE2135CFB2000F0EF47 /* PVHeadingLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVHeadingLine.h; sourceTree = "<group>"; };
+		E9031FE3135CFB2000F0EF47 /* PVHeadingLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVHeadingLine.m; sourceTree = "<group>"; };
+		E904E74C13E478BB00339690 /* plan-st-quentin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "plan-st-quentin"; sourceTree = "<group>"; };
+		E90AA8D31360627F0015A7F0 /* PVConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVConstants.h; sourceTree = "<group>"; };
+		E90AA8D41360627F0015A7F0 /* PVConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVConstants.m; sourceTree = "<group>"; };
+		E90AA8D7136076590015A7F0 /* PVHeadingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVHeadingLabel.h; sourceTree = "<group>"; };
+		E90AA8D8136076590015A7F0 /* PVHeadingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVHeadingLabel.m; sourceTree = "<group>"; };
+		E91F68341423A2FE0010A90D /* PVConstantsRombas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVConstantsRombas.h; sourceTree = "<group>"; };
+		E91F68351423A2FE0010A90D /* PVConstantsRombas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVConstantsRombas.m; sourceTree = "<group>"; };
+		E926F6DA13C39EB6004F00D9 /* PVLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVLocationController.h; sourceTree = "<group>"; };
+		E926F6DB13C39EB6004F00D9 /* PVLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVLocationController.m; sourceTree = "<group>"; };
+		E947353613C4D68D00948345 /* PVView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVView.h; sourceTree = "<group>"; };
+		E947353713C4D68D00948345 /* PVView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVView.m; sourceTree = "<group>"; };
+		E9640C6D135CAE81003D04FA /* PVPositionTrackingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVPositionTrackingView.h; sourceTree = "<group>"; };
+		E9640C6E135CAE81003D04FA /* PVPositionTrackingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVPositionTrackingView.m; sourceTree = "<group>"; };
+		E9640C70135CAF53003D04FA /* PVZoomScaleAwareComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVZoomScaleAwareComponents.h; sourceTree = "<group>"; };
+		E9640C71135CC87B003D04FA /* PVTrackingDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVTrackingDot.h; sourceTree = "<group>"; };
+		E9640C72135CC87B003D04FA /* PVTrackingDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVTrackingDot.m; sourceTree = "<group>"; };
+		E9640C74135CCF81003D04FA /* tracking-dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tracking-dot.png"; sourceTree = "<group>"; };
+		E9673935135A1860000803E4 /* PlanVTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanVTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9673939135A1860000803E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E967393B135A1860000803E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E967393D135A1860000803E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9673941135A1860000803E4 /* PlanVTT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlanVTT-Info.plist"; sourceTree = "<group>"; };
+		E9673943135A1860000803E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9673945135A1860000803E4 /* PlanVTT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlanVTT-Prefix.pch"; sourceTree = "<group>"; };
+		E9673946135A1860000803E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9673948135A1860000803E4 /* PVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVAppDelegate.h; sourceTree = "<group>"; };
+		E9673949135A1860000803E4 /* PVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVAppDelegate.m; sourceTree = "<group>"; };
+		E967394C135A1860000803E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E967394E135A1860000803E4 /* PVMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVMainViewController.h; sourceTree = "<group>"; };
+		E967394F135A1860000803E4 /* PVMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVMainViewController.m; sourceTree = "<group>"; };
+		E9673951135A1860000803E4 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		E9673953135A1860000803E4 /* PVFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVFlipsideViewController.h; sourceTree = "<group>"; };
+		E9673954135A1860000803E4 /* PVFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVFlipsideViewController.m; sourceTree = "<group>"; };
+		E9673956135A1860000803E4 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		E9673964135A2C7D000803E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E9673966135A2CE2000803E4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E9673968135A2FCC000803E4 /* icone@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icone@2x~iphone.png"; sourceTree = "<group>"; };
+		E9673969135A2FCC000803E4 /* icone~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icone~iphone.png"; sourceTree = "<group>"; };
+		E9DBA6AE1423FAF400AC22D7 /* plan-gif */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "plan-gif"; sourceTree = "<group>"; };
+		E9DBA6B11423FB0400AC22D7 /* plan-essonne */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "plan-essonne"; sourceTree = "<group>"; };
+		E9DBA6B31423FBB900AC22D7 /* PVConstantsGif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVConstantsGif.h; sourceTree = "<group>"; };
+		E9DBA6B41423FBB900AC22D7 /* PVConstantsGif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVConstantsGif.m; sourceTree = "<group>"; };
+		E9DBA6B61424033A00AC22D7 /* PVConstantsEssonne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVConstantsEssonne.h; sourceTree = "<group>"; };
+		E9DBA6B71424033A00AC22D7 /* PVConstantsEssonne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVConstantsEssonne.m; sourceTree = "<group>"; };
+		E9DF8DD7135DACC500E63896 /* PVPositionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVPositionView.h; sourceTree = "<group>"; };
+		E9DF8DD8135DACC500E63896 /* PVPositionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVPositionView.m; sourceTree = "<group>"; };
+		E9DF8DDE135DB20900E63896 /* PVPositionFixedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVPositionFixedView.h; sourceTree = "<group>"; };
+		E9DF8DDF135DB20900E63896 /* PVPositionFixedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVPositionFixedView.m; sourceTree = "<group>"; };
+		E9DF8DE1135DB4BE00E63896 /* PVRangeCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRangeCircle.h; sourceTree = "<group>"; };
+		E9DF8DE2135DB4BE00E63896 /* PVRangeCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVRangeCircle.m; sourceTree = "<group>"; };
+		E9DF8DE4135DE68600E63896 /* PVAngle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVAngle.h; sourceTree = "<group>"; };
+		E9DF8DE5135DE68600E63896 /* PVAngle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVAngle.m; sourceTree = "<group>"; };
+		E9DF8DEA135E20DA00E63896 /* PVGeoToMetersTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVGeoToMetersTransform.h; sourceTree = "<group>"; };
+		E9DF8DEB135E20DB00E63896 /* PVGeoToMetersTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVGeoToMetersTransform.m; sourceTree = "<group>"; };
+		E9DF8DED135E212700E63896 /* PVGeographic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVGeographic.h; sourceTree = "<group>"; };
+		E9DF8DEE135E212800E63896 /* PVGeographic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVGeographic.m; sourceTree = "<group>"; };
+		E9DF8DF0135E254900E63896 /* PVScreenToGeoTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVScreenToGeoTransform.h; sourceTree = "<group>"; };
+		E9DF8DF1135E254900E63896 /* PVScreenToGeoTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVScreenToGeoTransform.m; sourceTree = "<group>"; };
+		E9DF8DF3135E25E600E63896 /* PVMeters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMeters.h; sourceTree = "<group>"; };
+		E9DF8DF4135E25E700E63896 /* PVMeters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMeters.m; sourceTree = "<group>"; };
+		E9E0A3DE135E59130048C3A1 /* PVTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVTransform.h; sourceTree = "<group>"; };
+		E9E0A3DF135E59130048C3A1 /* PVTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVTransform.m; sourceTree = "<group>"; };
+		E9E25EBE135B0A40007DC961 /* PVScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVScrollView.h; sourceTree = "<group>"; };
+		E9E25EBF135B0A40007DC961 /* PVScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVScrollView.m; sourceTree = "<group>"; };
+		E9E25EC1135B0AF4007DC961 /* PVScrollViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVScrollViewDelegate.h; sourceTree = "<group>"; };
+		E9E25EC2135B0AF4007DC961 /* PVScrollViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVScrollViewDelegate.m; sourceTree = "<group>"; };
+		E9E25EC4135B0D29007DC961 /* PVZoomingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVZoomingView.h; sourceTree = "<group>"; };
+		E9E25EC5135B0D29007DC961 /* PVZoomingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVZoomingView.m; sourceTree = "<group>"; };
+		E9E25EC7135B0D4B007DC961 /* PVNonZoomingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVNonZoomingView.h; sourceTree = "<group>"; };
+		E9E25EC8135B0D4B007DC961 /* PVNonZoomingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVNonZoomingView.m; sourceTree = "<group>"; };
+		E9E25ED1135B3400007DC961 /* PVCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVCoordinates.h; sourceTree = "<group>"; };
+		E9E25ED2135B3400007DC961 /* PVCoordinates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVCoordinates.m; sourceTree = "<group>"; };
+		E9E25ED4135B397E007DC961 /* PVMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMatrix.h; sourceTree = "<group>"; };
+		E9E25ED5135B397E007DC961 /* PVMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMatrix.m; sourceTree = "<group>"; };
+		E9E25ED7135B7801007DC961 /* PVMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMapView.h; sourceTree = "<group>"; };
+		E9E25ED8135B7802007DC961 /* PVMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMapView.m; sourceTree = "<group>"; };
+		E9E91D8C142228CE001E6EA9 /* plan-rombas */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "plan-rombas"; sourceTree = "<group>"; };
+		E9E91D921422295B001E6EA9 /* PVConstantsStQuentin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVConstantsStQuentin.h; sourceTree = "<group>"; };
+		E9E91D931422295B001E6EA9 /* PVConstantsStQuentin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVConstantsStQuentin.m; sourceTree = "<group>"; };
+		E9F05B0213C7502F0054666A /* altitude.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = altitude.png; sourceTree = "<group>"; };
+		E9F05B0313C7502F0054666A /* coordinates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coordinates.png; sourceTree = "<group>"; };
+		E9F05B0413C7502F0054666A /* heading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heading@2x.png"; sourceTree = "<group>"; };
+		E9F05B0513C7502F0054666A /* heading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heading.png; sourceTree = "<group>"; };
+		E9F05B0613C7502F0054666A /* altitude@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "altitude@2x.png"; sourceTree = "<group>"; };
+		E9F05B0713C7502F0054666A /* coordinates@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coordinates@2x.png"; sourceTree = "<group>"; };
+		E9F1214D135F10CE008EFB73 /* PVVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVVector.h; sourceTree = "<group>"; };
+		E9F1214E135F10CF008EFB73 /* PVVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVVector.m; sourceTree = "<group>"; };
+		E9F12150135F125E008EFB73 /* PVScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVScreen.h; sourceTree = "<group>"; };
+		E9F12151135F125F008EFB73 /* PVScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVScreen.m; sourceTree = "<group>"; };
+		E9FC252A13C48CB000234CCF /* PVLocationAwareComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVLocationAwareComponents.h; sourceTree = "<group>"; };
+		E9FC252C13C49E0E00234CCF /* PVLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVLocation.h; sourceTree = "<group>"; };
+		E9FC252D13C49E0E00234CCF /* PVLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVLocation.m; sourceTree = "<group>"; };
+		E9FC252F13C49FF700234CCF /* PVHeadingAwareComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVHeadingAwareComponents.h; sourceTree = "<group>"; };
+		E9FC253013C4A05B00234CCF /* PVHeading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVHeading.h; sourceTree = "<group>"; };
+		E9FC253113C4A05B00234CCF /* PVHeading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVHeading.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9673932135A1860000803E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9673967135A2CE2000803E4 /* CoreLocation.framework in Frameworks */,
+				E9673965135A2C7D000803E4 /* QuartzCore.framework in Frameworks */,
+				E967393A135A1860000803E4 /* UIKit.framework in Frameworks */,
+				E967393C135A1860000803E4 /* Foundation.framework in Frameworks */,
+				E967393E135A1860000803E4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E90AA8D6136063E40015A7F0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E90AA8D31360627F0015A7F0 /* PVConstants.h */,
+				E90AA8D41360627F0015A7F0 /* PVConstants.m */,
+				E9E91D921422295B001E6EA9 /* PVConstantsStQuentin.h */,
+				E9E91D931422295B001E6EA9 /* PVConstantsStQuentin.m */,
+				E91F68341423A2FE0010A90D /* PVConstantsRombas.h */,
+				E91F68351423A2FE0010A90D /* PVConstantsRombas.m */,
+				E9DBA6B31423FBB900AC22D7 /* PVConstantsGif.h */,
+				E9DBA6B41423FBB900AC22D7 /* PVConstantsGif.m */,
+				E9DBA6B61424033A00AC22D7 /* PVConstantsEssonne.h */,
+				E9DBA6B71424033A00AC22D7 /* PVConstantsEssonne.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		E926F6D813C39E86004F00D9 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				E926F6DA13C39EB6004F00D9 /* PVLocationController.h */,
+				E926F6DB13C39EB6004F00D9 /* PVLocationController.m */,
+				E9FC252C13C49E0E00234CCF /* PVLocation.h */,
+				E9FC252D13C49E0E00234CCF /* PVLocation.m */,
+				E9FC253013C4A05B00234CCF /* PVHeading.h */,
+				E9FC253113C4A05B00234CCF /* PVHeading.m */,
+				E9FC252A13C48CB000234CCF /* PVLocationAwareComponents.h */,
+				E9FC252F13C49FF700234CCF /* PVHeadingAwareComponents.h */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		E967392A135A1860000803E4 = {
+			isa = PBXGroup;
+			children = (
+				E967393F135A1860000803E4 /* PlanVTT */,
+				E9673938135A1860000803E4 /* Frameworks */,
+				E9673936135A1860000803E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9673936135A1860000803E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9673935135A1860000803E4 /* PlanVTT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9673938135A1860000803E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9673966135A2CE2000803E4 /* CoreLocation.framework */,
+				E9673964135A2C7D000803E4 /* QuartzCore.framework */,
+				E9673939135A1860000803E4 /* UIKit.framework */,
+				E967393B135A1860000803E4 /* Foundation.framework */,
+				E967393D135A1860000803E4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E967393F135A1860000803E4 /* PlanVTT */ = {
+			isa = PBXGroup;
+			children = (
+				E926F6D813C39E86004F00D9 /* Location */,
+				E90AA8D6136063E40015A7F0 /* Constants */,
+				E9E25EB3135B0974007DC961 /* UI */,
+				E9E0A3DB135E495C0048C3A1 /* Views */,
+				E9E0A3DD135E499E0048C3A1 /* Components */,
+				E9E25EB5135B0987007DC961 /* Model */,
+				E967395F135A2C06000803E4 /* Ressources */,
+				E9673940135A1860000803E4 /* Supporting Files */,
+			);
+			path = PlanVTT;
+			sourceTree = "<group>";
+		};
+		E9673940135A1860000803E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9673941135A1860000803E4 /* PlanVTT-Info.plist */,
+				E9673942135A1860000803E4 /* InfoPlist.strings */,
+				E9673945135A1860000803E4 /* PlanVTT-Prefix.pch */,
+				E9673946135A1860000803E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E967395F135A2C06000803E4 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				E9DBA6B11423FB0400AC22D7 /* plan-essonne */,
+				E9DBA6AE1423FAF400AC22D7 /* plan-gif */,
+				E9E91D8C142228CE001E6EA9 /* plan-rombas */,
+				E904E74C13E478BB00339690 /* plan-st-quentin */,
+				E9F05B0213C7502F0054666A /* altitude.png */,
+				E9F05B0313C7502F0054666A /* coordinates.png */,
+				E9F05B0413C7502F0054666A /* heading@2x.png */,
+				E9F05B0513C7502F0054666A /* heading.png */,
+				E9F05B0613C7502F0054666A /* altitude@2x.png */,
+				E9F05B0713C7502F0054666A /* coordinates@2x.png */,
+				E9673968135A2FCC000803E4 /* icone@2x~iphone.png */,
+				E9673969135A2FCC000803E4 /* icone~iphone.png */,
+				E9640C74135CCF81003D04FA /* tracking-dot.png */,
+			);
+			name = Ressources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E9E0A3DB135E495C0048C3A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9E25EBE135B0A40007DC961 /* PVScrollView.h */,
+				E9E25EBF135B0A40007DC961 /* PVScrollView.m */,
+				E9E25EC1135B0AF4007DC961 /* PVScrollViewDelegate.h */,
+				E9E25EC2135B0AF4007DC961 /* PVScrollViewDelegate.m */,
+				E947353613C4D68D00948345 /* PVView.h */,
+				E947353713C4D68D00948345 /* PVView.m */,
+				E9E25EC4135B0D29007DC961 /* PVZoomingView.h */,
+				E9E25EC5135B0D29007DC961 /* PVZoomingView.m */,
+				E9E25EC7135B0D4B007DC961 /* PVNonZoomingView.h */,
+				E9E25EC8135B0D4B007DC961 /* PVNonZoomingView.m */,
+				E9DF8DD7135DACC500E63896 /* PVPositionView.h */,
+				E9DF8DD8135DACC500E63896 /* PVPositionView.m */,
+				E9640C6D135CAE81003D04FA /* PVPositionTrackingView.h */,
+				E9640C6E135CAE81003D04FA /* PVPositionTrackingView.m */,
+				E9DF8DDE135DB20900E63896 /* PVPositionFixedView.h */,
+				E9DF8DDF135DB20900E63896 /* PVPositionFixedView.m */,
+				E9E25ED7135B7801007DC961 /* PVMapView.h */,
+				E9E25ED8135B7802007DC961 /* PVMapView.m */,
+				E9640C70135CAF53003D04FA /* PVZoomScaleAwareComponents.h */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E9E0A3DD135E499E0048C3A1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E9640C71135CC87B003D04FA /* PVTrackingDot.h */,
+				E9640C72135CC87B003D04FA /* PVTrackingDot.m */,
+				E9031FE2135CFB2000F0EF47 /* PVHeadingLine.h */,
+				E9031FE3135CFB2000F0EF47 /* PVHeadingLine.m */,
+				E90AA8D7136076590015A7F0 /* PVHeadingLabel.h */,
+				E90AA8D8136076590015A7F0 /* PVHeadingLabel.m */,
+				E9DF8DE1135DB4BE00E63896 /* PVRangeCircle.h */,
+				E9DF8DE2135DB4BE00E63896 /* PVRangeCircle.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		E9E25EB3135B0974007DC961 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E9673948135A1860000803E4 /* PVAppDelegate.h */,
+				E9673949135A1860000803E4 /* PVAppDelegate.m */,
+				E967394B135A1860000803E4 /* MainWindow.xib */,
+				E967394E135A1860000803E4 /* PVMainViewController.h */,
+				E967394F135A1860000803E4 /* PVMainViewController.m */,
+				E9673951135A1860000803E4 /* MainView.xib */,
+				E9673953135A1860000803E4 /* PVFlipsideViewController.h */,
+				E9673954135A1860000803E4 /* PVFlipsideViewController.m */,
+				E9673956135A1860000803E4 /* FlipsideView.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		E9E25EB5135B0987007DC961 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9E25ED1135B3400007DC961 /* PVCoordinates.h */,
+				E9E25ED2135B3400007DC961 /* PVCoordinates.m */,
+				E9E25ED4135B397E007DC961 /* PVMatrix.h */,
+				E9E25ED5135B397E007DC961 /* PVMatrix.m */,
+				E9E0A3DE135E59130048C3A1 /* PVTransform.h */,
+				E9E0A3DF135E59130048C3A1 /* PVTransform.m */,
+				E9DF8DEA135E20DA00E63896 /* PVGeoToMetersTransform.h */,
+				E9DF8DEB135E20DB00E63896 /* PVGeoToMetersTransform.m */,
+				E9DF8DF0135E254900E63896 /* PVScreenToGeoTransform.h */,
+				E9DF8DF1135E254900E63896 /* PVScreenToGeoTransform.m */,
+				E9DF8DED135E212700E63896 /* PVGeographic.h */,
+				E9DF8DEE135E212800E63896 /* PVGeographic.m */,
+				E9DF8DF3135E25E600E63896 /* PVMeters.h */,
+				E9DF8DF4135E25E700E63896 /* PVMeters.m */,
+				E9F12150135F125E008EFB73 /* PVScreen.h */,
+				E9F12151135F125F008EFB73 /* PVScreen.m */,
+				E9F1214D135F10CE008EFB73 /* PVVector.h */,
+				E9F1214E135F10CF008EFB73 /* PVVector.m */,
+				E9DF8DE4135DE68600E63896 /* PVAngle.h */,
+				E9DF8DE5135DE68600E63896 /* PVAngle.m */,
+				E9029CB51363026400EA2098 /* PVSuperAngle.h */,
+				E9029CB61363026500EA2098 /* PVSuperAngle.m */,
+				E9029CA91363012700EA2098 /* PVAngleScreen.h */,
+				E9029CAA1363012700EA2098 /* PVAngleScreen.m */,
+				E9029CAC1363014600EA2098 /* PVAngleGeographic.h */,
+				E9029CAD1363014600EA2098 /* PVAngleGeographic.m */,
+				E9029CAF1363016200EA2098 /* PVAngleMagnetic.h */,
+				E9029CB01363016200EA2098 /* PVAngleMagnetic.m */,
+				E9029CBB1363051900EA2098 /* PVAngleMagToGeoTransform.h */,
+				E9029CBC1363051900EA2098 /* PVAngleMagToGeoTransform.m */,
+				E9029CCE136311F000EA2098 /* PVAngleGeoToScreenTransform.h */,
+				E9029CCF136311F000EA2098 /* PVAngleGeoToScreenTransform.m */,
+				E9029CB8136303AB00EA2098 /* PVLongitude.h */,
+				E9029CB9136303AB00EA2098 /* PVLongitude.m */,
+				E9029CBE1363085200EA2098 /* PVLatitude.h */,
+				E9029CBF1363085300EA2098 /* PVLatitude.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9673934135A1860000803E4 /* PlanVTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E967395A135A1860000803E4 /* Build configuration list for PBXNativeTarget "PlanVTT" */;
+			buildPhases = (
+				E9673931135A1860000803E4 /* Sources */,
+				E9673932135A1860000803E4 /* Frameworks */,
+				E9673933135A1860000803E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlanVTT;
+			productName = PlanVTT;
+			productReference = E9673935135A1860000803E4 /* PlanVTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E967392C135A1860000803E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = none;
+			};
+			buildConfigurationList = E967392F135A1860000803E4 /* Build configuration list for PBXProject "PlanVTT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E967392A135A1860000803E4;
+			productRefGroup = E9673936135A1860000803E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9673934135A1860000803E4 /* PlanVTT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9673933135A1860000803E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9673944135A1860000803E4 /* InfoPlist.strings in Resources */,
+				E967394D135A1860000803E4 /* MainWindow.xib in Resources */,
+				E9673952135A1860000803E4 /* MainView.xib in Resources */,
+				E9673957135A1860000803E4 /* FlipsideView.xib in Resources */,
+				E967396A135A2FCC000803E4 /* icone@2x~iphone.png in Resources */,
+				E967396B135A2FCC000803E4 /* icone~iphone.png in Resources */,
+				E9640C75135CCF81003D04FA /* tracking-dot.png in Resources */,
+				E9F05B0813C7502F0054666A /* altitude.png in Resources */,
+				E9F05B0913C7502F0054666A /* coordinates.png in Resources */,
+				E9F05B0A13C7502F0054666A /* heading@2x.png in Resources */,
+				E9F05B0B13C7502F0054666A /* heading.png in Resources */,
+				E9F05B0C13C7502F0054666A /* altitude@2x.png in Resources */,
+				E9F05B0D13C7502F0054666A /* coordinates@2x.png in Resources */,
+				E904E74D13E478BB00339690 /* plan-st-quentin in Resources */,
+				E9E91D8D142228CE001E6EA9 /* plan-rombas in Resources */,
+				E9DBA6AF1423FAF400AC22D7 /* plan-gif in Resources */,
+				E9DBA6B21423FB0400AC22D7 /* plan-essonne in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9673931135A1860000803E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9673947135A1860000803E4 /* main.m in Sources */,
+				E967394A135A1860000803E4 /* PVAppDelegate.m in Sources */,
+				E9673950135A1860000803E4 /* PVMainViewController.m in Sources */,
+				E9673955135A1860000803E4 /* PVFlipsideViewController.m in Sources */,
+				E9E25EC0135B0A40007DC961 /* PVScrollView.m in Sources */,
+				E9E25EC3135B0AF4007DC961 /* PVScrollViewDelegate.m in Sources */,
+				E9E25EC6135B0D29007DC961 /* PVZoomingView.m in Sources */,
+				E9E25EC9135B0D4B007DC961 /* PVNonZoomingView.m in Sources */,
+				E9E25ED3135B3400007DC961 /* PVCoordinates.m in Sources */,
+				E9E25ED6135B397E007DC961 /* PVMatrix.m in Sources */,
+				E9E25ED9135B7802007DC961 /* PVMapView.m in Sources */,
+				E9640C6F135CAE82003D04FA /* PVPositionTrackingView.m in Sources */,
+				E9640C73135CC87C003D04FA /* PVTrackingDot.m in Sources */,
+				E9031FE4135CFB2000F0EF47 /* PVHeadingLine.m in Sources */,
+				E9DF8DD9135DACC500E63896 /* PVPositionView.m in Sources */,
+				E9DF8DE0135DB20A00E63896 /* PVPositionFixedView.m in Sources */,
+				E9DF8DE3135DB4BE00E63896 /* PVRangeCircle.m in Sources */,
+				E9DF8DE6135DE68600E63896 /* PVAngle.m in Sources */,
+				E9DF8DEC135E20DC00E63896 /* PVGeoToMetersTransform.m in Sources */,
+				E9DF8DEF135E212900E63896 /* PVGeographic.m in Sources */,
+				E9DF8DF2135E254A00E63896 /* PVScreenToGeoTransform.m in Sources */,
+				E9DF8DF5135E25E800E63896 /* PVMeters.m in Sources */,
+				E9E0A3E0135E59130048C3A1 /* PVTransform.m in Sources */,
+				E9F1214F135F10CF008EFB73 /* PVVector.m in Sources */,
+				E9F12152135F125F008EFB73 /* PVScreen.m in Sources */,
+				E90AA8D5136062800015A7F0 /* PVConstants.m in Sources */,
+				E90AA8D9136076590015A7F0 /* PVHeadingLabel.m in Sources */,
+				E9029CAB1363012800EA2098 /* PVAngleScreen.m in Sources */,
+				E9029CAE1363014600EA2098 /* PVAngleGeographic.m in Sources */,
+				E9029CB11363016200EA2098 /* PVAngleMagnetic.m in Sources */,
+				E9029CB71363026500EA2098 /* PVSuperAngle.m in Sources */,
+				E9029CBA136303AC00EA2098 /* PVLongitude.m in Sources */,
+				E9029CBD1363051A00EA2098 /* PVAngleMagToGeoTransform.m in Sources */,
+				E9029CC01363085400EA2098 /* PVLatitude.m in Sources */,
+				E9029CD0136311F100EA2098 /* PVAngleGeoToScreenTransform.m in Sources */,
+				E926F6DC13C39EB6004F00D9 /* PVLocationController.m in Sources */,
+				E9FC252E13C49E0E00234CCF /* PVLocation.m in Sources */,
+				E9FC253213C4A05B00234CCF /* PVHeading.m in Sources */,
+				E947353813C4D68D00948345 /* PVView.m in Sources */,
+				E9E91D941422295B001E6EA9 /* PVConstantsStQuentin.m in Sources */,
+				E91F68361423A2FE0010A90D /* PVConstantsRombas.m in Sources */,
+				E9DBA6B51423FBB900AC22D7 /* PVConstantsGif.m in Sources */,
+				E9DBA6B81424033B00AC22D7 /* PVConstantsEssonne.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9673942135A1860000803E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9673943135A1860000803E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E967394B135A1860000803E4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E967394C135A1860000803E4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9673958135A1860000803E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9673959135A1860000803E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E967395B135A1860000803E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlanVTT/PlanVTT-Prefix.pch";
+				INFOPLIST_FILE = "PlanVTT/PlanVTT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E967395C135A1860000803E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlanVTT/PlanVTT-Prefix.pch";
+				INFOPLIST_FILE = "PlanVTT/PlanVTT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E967392F135A1860000803E4 /* Build configuration list for PBXProject "PlanVTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9673958135A1860000803E4 /* Debug */,
+				E9673959135A1860000803E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E967395A135A1860000803E4 /* Build configuration list for PBXNativeTarget "PlanVTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E967395B135A1860000803E4 /* Debug */,
+				E967395C135A1860000803E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E967392C135A1860000803E4 /* Project object */;
+}
